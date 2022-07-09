@@ -1,0 +1,65 @@
+.flex {
+  display: flex;
+}
+.row{
+  flex-direction: row;
+}
+.col{
+  flex-direction: column;
+}
+.bar-s {
+  background-color: black;
+  width: 2em;
+  height: 6.5em;
+}
+.bar-l {
+  background-color: black;
+  width: 8em;
+  height: 2em;
+}
+.block {
+  background-color: black;
+  width: 0.75em;
+  height: 0.5em;
+}
+.triangle-1 {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  border-top: 2em solid black;
+  border-left: 2em solid transparent;
+  border-right: 0em solid transparent;
+}
+.triangle-2 {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  border-top: 0.75em solid black;
+  border-left: 0.75em solid transparent;
+  border-right: 0em solid transparent;
+}
+.triangle-3 {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  border-top: 1.25em solid black;
+  border-left: 0em solid transparent;
+  border-right: 1.25em solid transparent;
+}
+.triangle-4 {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  border-top: 1em solid transparent;
+  border-right: 1em solid black;
+  border-bottom: 1em solid transparent;
+}
+.flip-hori {
+  transform: scaleX(-1);
+}
+.flip-vert {
+  transform: scaleY(-1);
+}
+.flip-both {
+  transform: scale(-1, -1);
+}
